@@ -5,7 +5,7 @@
 ## Logo
 <p align = "center">
   <img 
-    src="imgs/Logo.jpeg" 
+    src="imgs/Logo-1.jpeg" 
     alt = "Logo of this Bot"
     width: 100% 
     height: 100% 
