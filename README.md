@@ -12,6 +12,7 @@
     align=right
   />
 </p>
+
 ## Schematic Diagram
 <p align = "center">
   <img 
