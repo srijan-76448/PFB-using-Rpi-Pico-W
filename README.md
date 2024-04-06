@@ -8,7 +8,7 @@
   <img 
     src = "imgs/schematic-diagram.png"
     alt = "Schematic Diagram of this Bot"
-    width: 500% 
+    width: 100% 
     height: 100% 
     align = "center"
   />
