@@ -77,12 +77,6 @@ def move_fwd(IN1, IN2):
     IN2.value(0)
 
 
-def move_bwd(IN1, IN2):
-    show('bwd')
-    IN1.value(0)
-    IN2.value(1)
-
-
 def stop(IN1, IN2):
     show('stop')
     IN1.value(0)
@@ -155,12 +149,10 @@ def main():
 
         if direct['lft']:
             stop(motor_pins["In1"], motor_pins["In2"])
-            # move_bwd(motor_pins["In1"], motor_pins["In2"])
             move_fwd(motor_pins["In3"], motor_pins["In4"])
 
         if direct['rht']:
             move_fwd(motor_pins["In1"], motor_pins["In2"])
-            # move_bwd(motor_pins["In3"], motor_pins["In4"])
             stop(motor_pins["In3"], motor_pins["In4"])
 
         if not (direct['fwd'] or direct['lft'] or direct['rht']):
@@ -172,7 +164,6 @@ def main():
 
 if __name__ == "__main__":
     try:
-        print("\033[1;33mRunning Bot\033[0m")
         main()
 
     except KeyboardInterrupt:
