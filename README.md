@@ -1,5 +1,6 @@
 # PFB using Rpi Pico W
 
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=srijan-76448.PFB-using-Rpi-Pico-W)
 
 
 ## Schematic Diagram
